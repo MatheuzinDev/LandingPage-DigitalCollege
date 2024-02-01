@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-.header{
+body {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.header {
     width: 100vw;
     height: 12vh;
 
@@ -13,20 +17,19 @@
     align-items: center;
 }
 
-#imgTruck{
+#imgTruck {
     color: rgb(255, 72, 0);
     margin-left: 4vw;
     font-size: 30px
-
 }
 
-.labelFaster{
+.labelFaster {
     padding: 0.5vw;
     font-family: 'Lato', sans-serif;
     color: rgb(255, 72, 0);
 }
 
-.options{
+.options {
     display: flex;
     font-size: 17px;
     margin-left: 16vw;
@@ -35,17 +38,17 @@
     height: 6vh;
 }
 
-.option{
+.option {
     text-decoration: none;
     color: #41414E;
-    padding-left: 2vw; 
+    padding-left: 2vw;
 }
 
-.options a:hover{
+.options a:hover {
     color: rgb(255, 72, 0);
 }
 
-.buttonQuote{
+.buttonQuote {
     background-color: rgb(255, 72, 0);
     border: none;
     color: #FFF4EF;
@@ -53,4 +56,65 @@
     height: 6vh;
     font-size: 14px;
     margin-left: 20vw;
+}
+
+.overlayPai {
+    position: relative;
+    height: 60vh;
+    background: url(./assents/overlayNavio.jpg) center/cover no-repeat;
+}
+
+.overlay {
+    position: absolute;
+    height: 60vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.textOverlay {
+    height: 60vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.textOverlay h2 {
+    color: #FF4800;
+    font-size: 34px;
+    margin-bottom: 3vh;
+}
+
+.textOverlay h1 {
+    font-size: 62px;
+    color: white;
+}
+
+.boxInputButton {
+    width: 35vw;
+    height: 7vh;
+    margin-top: 4vh;
+    display: flex;
+}
+
+.inputTracking {
+    width: 27vw;
+    border: none;
+    outline: 0;
+}
+
+.buttonTrack {
+    width: 10vw;
+    border: none;
+    background-color: #FF4800;
+    color: white;
+}
+
+.inputTracking::placeholder {
+    padding-left: 20px;
 }
