@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Lexend Deca', sans-serif;
+    overflow-x: hidden;
 }
 
 .header {
@@ -117,4 +118,37 @@ body {
 
 .inputTracking::placeholder {
     padding-left: 20px;
+}
+
+.boxGetAQuote {
+    width: 100vw;
+    height: 50vh;
+    background-color: #F2F2F4;
+    margin-top: 5vh;
+    display: flex;
+}
+
+.requestAQuote {
+    background-color: red;
+    width: 40vw;
+
+    margin-left: 20vw;
+}
+
+.requestAQuote p {
+    font-size: 14px;
+}
+
+.numbersGetAQuote {
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    width: 40vw;
+    margin-left: 20vw;
+}
+
+.textGetAQuote {
+    background-color: blue;
+    width: 60vw;
+    margin-top: 10vh;
 }
