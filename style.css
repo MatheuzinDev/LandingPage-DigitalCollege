@@ -148,7 +148,6 @@ body {
 
 .requestAQuote h2 {
     color: #1F1F2E;
-    font-weight: bold;
     font-size: 36px;
     margin-top: 1vh;
 }
@@ -173,7 +172,7 @@ body {
 }
 
 .textGetAQuote {
-    width: 54vw;
+    width: 55vw;
 }
 
 .loginGetAQuote {
