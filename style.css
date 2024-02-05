@@ -122,7 +122,7 @@ body {
 
 .boxGetAQuote {
     width: 100vw;
-    height: 50vh;
+    height: 70vh;
     background-color: #F2F2F4;
     margin-top: 5vh;
     display: flex;
@@ -142,13 +142,57 @@ body {
 .numbersGetAQuote {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: aqua;
     width: 40vw;
     margin-left: 20vw;
+}
+
+.individualNumbers {
+    justify-content: center;
+    background-color: #FF4800;
+    width: 11vw;
 }
 
 .textGetAQuote {
     background-color: blue;
     width: 60vw;
     margin-top: 10vh;
+}
+
+.loginGetAQuote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FF4800;
+    width: 25vw;
+    height: 50vh;
+    margin-top: 10vh;
+}
+
+.loginGetAQuote input {
+    font-family: 'Lexend Deca', sans-serif;
+    width: 18vw;
+    height: 5vh;
+    font-size: 12px;
+    color: #B2B7BB;
+    border: none;
+    outline: none;
+    margin-top: 2vh;
+}
+
+.loginGetAQuote input::placeholder {
+    padding-left: 0.8vw;
+}
+
+.loginGetAQuote select {
+    font-family: 'Lexend Deca', sans-serif;
+    width: 18vw;
+    height: 5vh;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    margin-top: 2vh;
+    padding-left: 0.5vw;
 }
