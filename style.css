@@ -122,42 +122,58 @@ body {
 
 .boxGetAQuote {
     width: 100vw;
-    height: 70vh;
+    height: 50vh;
     background-color: #F2F2F4;
     margin-top: 5vh;
     display: flex;
 }
 
 .requestAQuote {
-    background-color: red;
-    width: 40vw;
+    width: 36vw;
+    height: 20vh;
+    margin-left: 16vw;
+    margin-top: 9vh;
+    text-align: justify;
+}
 
-    margin-left: 20vw;
+.requestAQuote h3 {
+    color: #FF4800;
+    font-size: 14px;
 }
 
 .requestAQuote p {
+    color: rgb(76, 76, 88);
     font-size: 14px;
+}
+
+.requestAQuote h2 {
+    color: #1F1F2E;
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 1vh;
+}
+
+.requestAQuote p {
+    font-size: 12px;
+    margin-top: 2.5vh;
 }
 
 .numbersGetAQuote {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: aqua;
-    width: 40vw;
-    margin-left: 20vw;
+    width: 36vw;
+    margin-left: 16vw;
+    margin-top: 2vh;
 }
 
 .individualNumbers {
     justify-content: center;
-    background-color: #FF4800;
     width: 11vw;
 }
 
 .textGetAQuote {
-    background-color: blue;
-    width: 60vw;
-    margin-top: 10vh;
+    width: 54vw;
 }
 
 .loginGetAQuote {
@@ -168,7 +184,6 @@ body {
     background-color: #FF4800;
     width: 25vw;
     height: 50vh;
-    margin-top: 10vh;
 }
 
 .loginGetAQuote input {
@@ -195,4 +210,27 @@ body {
     outline: none;
     margin-top: 2vh;
     padding-left: 0.5vw;
+}
+
+.loginGetAQuote button {
+    font-family: 'Lexend Deca', sans-serif;
+    width: 18vw;
+    height: 5vh;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    margin-top: 2vh;
+    background-color: #1F1F2E;
+    color: white;
+}
+
+.individualNumbers h2 {
+    font-size: 32px;
+    color: #FF4800;
+    margin-top: 0.5vh;
+}
+
+.individualNumbers h4 {
+    font-size: 13px;
+    font-weight: bold;
 }
