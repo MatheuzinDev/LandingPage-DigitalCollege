@@ -234,8 +234,7 @@ body {
     font-weight: bold;
 }
 
-.boxPricingPlan{
-    background-color: red;
+.boxPricingPlan {
     width: 100vw;
     height: 80vh;
     display: flex;
@@ -243,97 +242,106 @@ body {
     flex-direction: column;
 }
 
-.boxPricingPlan h3{
+.boxPricingPlan h3 {
     font-size: 14px;
     color: #FF4800;
     margin-top: 8vh;
 }
 
-.boxPricingPlan h2{
+.boxPricingPlan h2 {
     color: #1F1F2E;
     font-size: 34px;
     margin-top: 1vh;
+
 }
 
 
-.boxPlans{
+.boxPlans {
     display: flex;
-    background-color: blue;
-    width: 55vw;
+    width: 61vw;
+    height: 50vh;
     justify-content: space-between;
     margin-top: 3vh;
 }
 
-.headerPlan{
+.headerPlan {
     background-color: #F2F2F4;
-    width: 17vw;
-    height: 11vh;
+    width: 19vw;
+    height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.headerPlan i{
-    padding-bottom: 2vh;
-    color: rgb(76, 76, 88);
-}
-
-.headerPlan p{
+.headerPlan i {
+    padding-bottom: 3vh;
     color: rgb(76, 76, 88);
     font-size: 14px;
+}
+
+.headerPlan p {
+    color: rgb(76, 76, 88);
+    font-size: 12px;
     padding-top: 2.5vh;
 }
 
-.headerPlan h1{
+#barra {
+    color: rgb(76, 76, 88);
+    padding-top: 2.5vh;
+    font-size: 16px;
+}
+
+.headerPlan h1 {
     font-size: 42px;
     color: #1F1F2E;
 }
 
-.plan{
-    height: 45vh;
+.plan {
+    height: 50vh;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.typePlan{
+.typePlan {
     background-color: #FF4800;
-    width: 17vw;
-    height: 8vh;
+    width: 19vw;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.typePlan h2{
-    font-size: 24px;
+.typePlan h2 {
+    font-size: 20px;
 }
 
 
-.characteristicsPlan{
-    background-color: aqua;
-    width: 17vw;
-    height: 22vh;
+.characteristicsPlan {
+    background-color: #F2F2F4;
+    width: 19vw;
+    height: 27vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 1vh;
+    padding-bottom: 3vh;
 }
 
-.characteristicsPlan p{
+.characteristicsPlan p {
     color: rgb(76, 76, 88);
-    font-size: 14px;
+    font-size: 12px;
     padding-top: 2vh;
-}   
+}
 
-.characteristicsPlan button{
+.characteristicsPlan button {
     margin-top: 2vh;
-    width: 6vw;
+    width: 7vw;
     height: 5vh;
     background-color: #FF4800;
     color: white;
     border: none;
     outline: none;
     font-size: 12px;
+    margin-top: 2.5vh;
 }
