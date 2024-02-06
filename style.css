@@ -252,7 +252,6 @@ body {
     color: #1F1F2E;
     font-size: 34px;
     margin-top: 1vh;
-
 }
 
 
@@ -344,4 +343,31 @@ body {
     outline: none;
     font-size: 12px;
     margin-top: 2.5vh;
+}
+
+.boxTeam {
+    background-color: red;
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxTeam h3 {
+    font-size: 14px;
+    color: #FF4800;
+    margin-top: 2vh;
+}
+
+.boxTeam h2 {
+    color: #1F1F2E;
+    font-size: 34px;
+    margin-top: 1vh;
+}
+
+.boxEmployer {
+    background-color: blue;
+    width: 61vw;
+    height: 40vh;
 }
