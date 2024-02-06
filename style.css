@@ -346,12 +346,13 @@ body {
 }
 
 .boxTeam {
-    background-color: red;
+    /* background-color: red; */
     width: 100vw;
     height: 80vh;
     display: flex;
     align-items: center;
     flex-direction: column;
+
 }
 
 .boxTeam h3 {
@@ -363,11 +364,49 @@ body {
 .boxTeam h2 {
     color: #1F1F2E;
     font-size: 34px;
-    margin-top: 1vh;
+    margin-top: 2vh;
+}
+
+.boxTeamChild {
+    width: 61vw;
+    height: 46vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4vh;
 }
 
 .boxEmployer {
-    background-color: blue;
-    width: 61vw;
-    height: 40vh;
+    background-color: #F2F2F4;
+    width: 14vw;
+    height: 46vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgEmployer {
+    width: 14vw;
+    height: 34vh;
+    font-size: 12px;
+}
+
+.descriptionEmployer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2vh;
+}
+
+.descriptionEmployer p {
+    font-size: 12px;
+    color: rgb(76, 76, 88);
+    padding-top: 1.5vh;
+}
+
+.rowOrange {
+    background-color: #FF4800;
+    width: 14vw;
+    height: 0.5vh;
+    margin-top: 2.3vh;
 }
