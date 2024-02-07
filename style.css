@@ -346,13 +346,11 @@ body {
 }
 
 .boxTeam {
-    /* background-color: red; */
     width: 100vw;
     height: 80vh;
     display: flex;
     align-items: center;
     flex-direction: column;
-
 }
 
 .boxTeam h3 {
