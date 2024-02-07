@@ -454,7 +454,7 @@ body {
     margin-left: 23vw;
 }
 
-.circle h3 {
+.circle h2 {
     color: #1F1F2E;
     font-weight: bold;
     font-size: 20px;
@@ -465,7 +465,7 @@ body {
     font-size: 12px;
 }
 
-.boxOurBlog h3 {
+.h3Blog {
     font-size: 14px;
     color: #FF4800;
 }
