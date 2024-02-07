@@ -411,7 +411,7 @@ body {
 
 .boxOurBlog {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     background-color: red;
     display: flex;
     align-items: center;
@@ -474,4 +474,59 @@ body {
     color: #1F1F2E;
     font-size: 34px;
     margin-top: 2vh;
+}
+
+.footerBlog {
+    background-color: #F2F2F4;
+    width: 29.5vw;
+    height: 25vh;
+}
+
+.circle2 {
+    background: #FF4800;
+    border-radius: 50%;
+    width: 3vw;
+    height: 6vh;
+    margin-top: 4vh;
+    margin-left: 2vw;
+}
+
+.footerBlog {
+    display: flex;
+}
+
+.footerBlog p {
+    font-size: 12px;
+    color: rgb(76, 76, 88);
+    margin-top: 2vh;
+    margin-left: 0.5vw;
+}
+
+.myImg {
+    clip-path: circle(50%);
+    width: 3vw;
+    height: 6vh;
+}
+
+.myInfos {
+    width: 11vw;
+    height: 6vh;
+    display: flex;
+    margin-top: 5vh;
+    margin-left: 2vw;
+}
+
+#bookMark {
+    color: #FF4800;
+    font-size: 13px;
+    margin-top: 2.1vh;
+}
+
+.rightMyInfos {
+    width: 7vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-left: 0.8vw;
 }
