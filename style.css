@@ -224,7 +224,7 @@ body {
 }
 
 .individualNumbers h2 {
-    font-size: 32px;
+    font-size: 30px;
     color: #FF4800;
     margin-top: 0.5vh;
 }
@@ -245,7 +245,7 @@ body {
 .boxPricingPlan h3 {
     font-size: 14px;
     color: #FF4800;
-    margin-top: 8vh;
+    margin-top: 10vh;
 }
 
 .boxPricingPlan h2 {
@@ -254,13 +254,12 @@ body {
     margin-top: 1vh;
 }
 
-
 .boxPlans {
     display: flex;
     width: 61vw;
     height: 50vh;
     justify-content: space-between;
-    margin-top: 3vh;
+    margin-top: 4vh;
 }
 
 .headerPlan {
@@ -347,7 +346,7 @@ body {
 
 .boxTeam {
     width: 100vw;
-    height: 80vh;
+    height: 75vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -356,7 +355,7 @@ body {
 .boxTeam h3 {
     font-size: 14px;
     color: #FF4800;
-    margin-top: 2vh;
+    margin-top: 8vh;
 }
 
 .boxTeam h2 {
@@ -406,13 +405,12 @@ body {
     background-color: #FF4800;
     width: 14vw;
     height: 0.5vh;
-    margin-top: 2.3vh;
+    margin-top: 2.9vh;
 }
 
 .boxOurBlog {
     width: 100vw;
     height: 100vh;
-    background-color: red;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -420,17 +418,15 @@ body {
 
 .boxOurBlogChild {
     width: 61vw;
-    height: 70vh;
-    background-color: blue;
+    height: 72vh;
     display: flex;
     justify-content: space-between;
-    margin-top: 3vh;
+    margin-top: 4vh;
 }
 
 .boxIndBlog {
     width: 29.5vw;
-    height: 70vh;
-    background-color: blueviolet;
+    height: 72vh;
     display: flex;
     flex-direction: column;
 }
@@ -450,7 +446,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 41vh;
+    margin-top: 40vh;
     margin-left: 23vw;
 }
 
@@ -468,6 +464,7 @@ body {
 .h3Blog {
     font-size: 14px;
     color: #FF4800;
+    margin-top: 8vh;
 }
 
 .boxOurBlog h2 {
@@ -476,50 +473,48 @@ body {
     margin-top: 2vh;
 }
 
-.footerBlog {
+.boxFooterBlog {
     background-color: #F2F2F4;
-    width: 29.5vw;
-    height: 25vh;
-}
-
-.circle2 {
-    background: #FF4800;
-    border-radius: 50%;
-    width: 3vw;
-    height: 6vh;
-    margin-top: 4vh;
-    margin-left: 2vw;
 }
 
 .footerBlog {
+    width: 29.5vw;
+    height: 9vh;
     display: flex;
 }
 
-.footerBlog p {
-    font-size: 12px;
+.name {
+    font-size: 10px;
     color: rgb(76, 76, 88);
-    margin-top: 2vh;
+    margin-top: 1.5vh;
     margin-left: 0.5vw;
+}
+
+.pWebDesign {
+    font-size: 10px;
+    color: rgb(76, 76, 88);
+    margin-top: 1.5vh;
+    margin-left: 0.3vw;
 }
 
 .myImg {
     clip-path: circle(50%);
-    width: 3vw;
-    height: 6vh;
+    width: 2.5vw;
+    height: 5vh;
 }
 
 .myInfos {
-    width: 11vw;
+    width: 10vw;
     height: 6vh;
     display: flex;
-    margin-top: 5vh;
-    margin-left: 2vw;
+    margin-top: 3.5vh;
+    margin-left: 1.5vw;
 }
 
 #bookMark {
     color: #FF4800;
     font-size: 13px;
-    margin-top: 2.1vh;
+    margin-top: 1.5vh;
 }
 
 .rightMyInfos {
@@ -527,6 +522,53 @@ body {
     height: 6vh;
     display: flex;
     justify-content: center;
-    margin-top: 5vh;
-    margin-left: 0.8vw;
+    margin-top: 3.5vh;
+}
+
+.infosFooterBlog {
+    width: 29.5vw;
+    height: 17vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5vh;
+}
+
+.infosFooterBlog h3 {
+    font-size: 17px;
+    color: #1F1F2E;
+    margin-left: 1.5vw;
+}
+
+.infosFooterBlog p {
+    font-size: 10px;
+    color: rgb(76, 76, 88);
+    margin-top: 1.5vh;
+    margin-left: 1.5vw;
+    padding-right: 1vw;
+}
+
+.infosFooterBlog a {
+    font-size: 12px;
+    margin-top: 2vh;
+    margin-left: 1.5vw;
+    text-decoration: none;
+    color: #FF4800;
+    font-weight: bold;
+}
+
+.seta {
+    position: absolute;
+    padding: 4px;
+    box-shadow: 2px -2px 0 0.2px #FF4800 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(225deg);
+    margin-top: 12.1vh;
+    margin-left: 7vw;
+}
+
+.hrFooter {
+    width: 6.1vw;
+    margin-left: 1.5vw;
+    color: yellow;
 }
