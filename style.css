@@ -586,12 +586,64 @@ body {
     background-color: blue;
     margin-top: 15vh;
     display: flex;
+
 }
 
-.boxTextTopFooterInd{
+.boxTextTopFooterInd1 {
     background-color: aqua;
     display: flex;
     flex-direction: column;
+    width: 28vw;
+
 }
 
-#DEDEE0
+.boxTextTopFooterInd1 h3 {
+    font-size: 24px;
+}
+
+
+.boxTextTopFooterInd2 {
+    background-color: brown;
+    width: 32vw;
+}
+
+.boxTextTopFooterInd2 h3{
+    font-size: 24px;
+}
+
+.boxTextTopFooterInd3 {
+    background-color: yellow;
+    width: 26vw;
+}
+
+.boxTextTopFooterInd3 h3 {
+    font-size: 24px;
+}
+
+.textGetInTouch {
+    display: flex;
+}
+
+.circleSocialMedia {
+    width: 1.5vw;
+    height: 3vh;
+    background-color: #DEDEE0;
+    border-radius: 50%;
+    border: #DEDEE0 1px solid;
+    background-color: #1F1F2E;
+}
+
+.socialMedias {
+    display: flex;
+}
+
+.setaFooter {
+    position: absolute;
+    padding: 4px;
+    box-shadow: 2px -2px 0 0.2px #DEDEE0 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(225deg);
+    margin-top: 12.1vh;
+    margin-left: 7vw;
+}
