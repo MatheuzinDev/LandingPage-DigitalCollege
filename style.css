@@ -572,3 +572,26 @@ body {
     margin-left: 1.5vw;
     color: yellow;
 }
+
+.footerSite {
+    width: 100vw;
+    height: 60vh;
+    background-color: red;
+    display: flex;
+}
+
+.boxTextTopFooter {
+    width: 100vw;
+    height: 40vh;
+    background-color: blue;
+    margin-top: 15vh;
+    display: flex;
+}
+
+.boxTextTopFooterInd{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+}
+
+#DEDEE0
