@@ -584,9 +584,42 @@ body {
     width: 100vw;
     height: 40vh;
     background-color: blue;
-    margin-top: 15vh;
+    margin-top: 12vh;
     display: flex;
+}
 
+.textGetInTouch {
+    margin-top: 2vh;
+}
+
+#iconLocation {
+    font-size: 16px;
+}
+
+#iconPhone {
+    font-size: 12px;
+    margin-top: 0.3vh;
+}
+
+#phone {
+    margin-left: 0.3vw;
+}
+
+#iconEnvelope {
+    font-size: 14px;
+    margin-top: 0.3vh;
+}
+
+#email {
+    margin-left: 0.3vw;
+}
+
+.socialMedias {
+    margin-top: 2vh;
+}
+
+.boxTextTopFooter p {
+    font-size: 14px;
 }
 
 .boxTextTopFooterInd1 {
@@ -594,6 +627,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 28vw;
+    margin-left: 2vw;
 
 }
 
@@ -607,13 +641,13 @@ body {
     width: 32vw;
 }
 
-.boxTextTopFooterInd2 h3{
+.boxTextTopFooterInd2 h3 {
     font-size: 24px;
 }
 
 .boxTextTopFooterInd3 {
     background-color: yellow;
-    width: 26vw;
+    width: 50vw;
 }
 
 .boxTextTopFooterInd3 h3 {
@@ -625,16 +659,18 @@ body {
 }
 
 .circleSocialMedia {
-    width: 1.5vw;
-    height: 3vh;
-    background-color: #DEDEE0;
+    width: 2vw;
+    height: 4vh;
+    background-color: #FFFFFF;
     border-radius: 50%;
-    border: #DEDEE0 1px solid;
+    border: #DEDEE0 1.5px solid;
     background-color: #1F1F2E;
 }
 
 .socialMedias {
     display: flex;
+    justify-content: space-between;
+    width: 10vw;
 }
 
 .setaFooter {
@@ -646,4 +682,30 @@ body {
     transform: rotate(225deg);
     margin-top: 12.1vh;
     margin-left: 7vw;
+}
+
+.circleSocialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#twitter {
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+#facebook {
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+#linkedin {
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+#instagram {
+    font-size: 12px;
+    color: #FFFFFF;
 }
