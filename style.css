@@ -13,7 +13,6 @@ body {
 .header {
     width: 100vw;
     height: 12vh;
-
     display: flex;
     align-items: center;
 }
@@ -576,8 +575,10 @@ body {
 .footerSite {
     width: 100vw;
     height: 60vh;
+    margin-top: 5vh;
     background-color: #1F1F2E;
     display: flex;
+    flex-direction: column;
 }
 
 .boxTextTopFooter {
@@ -585,7 +586,6 @@ body {
     height: 40vh;
     margin-top: 12vh;
     display: flex;
-    background-color: red;
 }
 
 .textGetInTouch {
@@ -683,7 +683,7 @@ body {
 .socialMedias {
     display: flex;
     justify-content: space-between;
-    width: 9vw;
+    width: 9.5vw;
 }
 
 .setaFooter {
@@ -772,4 +772,16 @@ body {
     border: none;
     margin-left: -0.3vw;
     background-color: #FF4800;
+}
+
+.boxBottomFooter {
+    background-color: red;
+}
+
+.boxBottomFooter p {
+    font-size: 14px;
+}
+
+.textBottomFooter {
+    color: #FF4800;
 }
