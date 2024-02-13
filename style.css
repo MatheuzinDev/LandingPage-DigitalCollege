@@ -576,7 +576,7 @@ body {
 
 .footerSite {
     width: 100vw;
-    height: 60vh;
+    height: 65vh;
     margin-top: 5vh;
     background-color: #1F1F2E;
     display: flex;
@@ -776,9 +776,11 @@ body {
     background-color: #FF4800;
 }
 
+
 .boxBottomFooter {
-    background-color: red;
     margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
 }
 
 .boxBottomFooter p {
@@ -789,8 +791,9 @@ body {
 .textBottomFooter {
     display: flex;
     width: 35vw;
-    background-color: aqua;
-    margin-top: 4vh;
+    height: 6vh;
+    margin-top: 2vh;
+    margin-left: 2vw;
 }
 
 .miniTextBottomFooter {
@@ -803,8 +806,13 @@ body {
     margin-left: 1.5vw;
 }
 
-#paragrafoBottomFooter {
-    margin-left: 0.3vw;
+#paragrafoBottomFooter::before {
+    content: "\f1f9";
+    font-family: "Font Awesome 6 Free";
+    line-height: 20px;
+    font-size: 11px;
+    color: #FFFFFF;
+    margin-right: 5px;
 }
 
 #hrFooter {
@@ -812,4 +820,27 @@ body {
     height: 0.3vh;
     background-color: #232332;
     border: none;
+}
+
+.textRightBottomFooter {
+    width: 18vw;
+    margin-top: 2vh;
+    margin-left: 42vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.textRightBottomFooter a {
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.optionsFooter {
+    font-size: 14px;
+    /* padding-left: 2vw; */
+}
+
+.textRightBottomFooter a {
+    text-decoration: none;
+    font-size: 12px;
 }
